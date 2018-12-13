@@ -32391,7 +32391,7 @@ function extend() {
 
 },{}],196:[function(require,module,exports){
 module.exports={
-  "name": "web3-provider-engine",
+  "name": "@deconet/web3-provider-engine",
   "version": "14.0.6",
   "description": "",
   "repository": "https://github.com/MetaMask/provider-engine",
@@ -32406,6 +32406,9 @@ module.exports={
   },
   "author": "",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "async": "^2.5.0",
     "backoff": "^2.5.0",
